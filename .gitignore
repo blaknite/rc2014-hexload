@@ -1,0 +1,9 @@
+/hexload
+/hexload_BSS.bin
+/hexload_CODE.bin
+/hexload.bin
+/hexload.hex
+/hexload.map
+/zcc_opt.def
+/zcc_proj.lst
+/hexload.asm
