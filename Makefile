@@ -2,7 +2,7 @@ include config.mk
 
 all: showinfo $(APP_NAME).hex
 	z80dasm -g $(mem_org) -a $(APP_NAME).bin > $(APP_NAME).asm
-	ruby ../util/bin2bas-ruby/bin2bas.rb --start=$(mem_org) $(APP_NAME).bin > $(APP_NAME).bas
+	ruby ../bin2bas-ruby/bin2bas.rb --start=$(mem_org) $(APP_NAME).bin > $(APP_NAME).bas
 
 showinfo:
 	@echo -------------------------------------------------------------------
